@@ -6,6 +6,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'scrooloose/nerdtree'
 	Plug 'itchyny/lightline.vim'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'dhruvasagar/vim-table-mode'
+	Plug 'tomtom/tcomment_vim'
 call plug#end()
 
 "Basic Configuration
