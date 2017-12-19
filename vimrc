@@ -32,5 +32,5 @@ map <C-d> :NERDTreeToggle<cr>
 
 "Tab Mappings
 map <C-t> :tabnew<cr>
-map <C-e> :tabn<cr>
-map <C-w> :tabp<cr>
+map <C-r> :tabn<cr>
+map <C-e> :tabp<cr>
