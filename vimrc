@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'airblade/vim-gitgutter'
 	Plug 'dhruvasagar/vim-table-mode'
 	Plug 'tomtom/tcomment_vim'
+	Plug 'digitaltoad/vim-pug'
 call plug#end()
 
 "Basic Configuration
@@ -22,7 +23,7 @@ colorscheme greenvision
 
 "Enable Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1
-set ts=2
+set autoindent noexpandtab tabstop=2 shiftwidth=2
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
