@@ -5,11 +5,13 @@ call plug#begin('~/.vim/plugged')
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'scrooloose/nerdtree'
-	Plug 'itchyny/lightline.vim'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 	Plug 'airblade/vim-gitgutter'
 	Plug 'dhruvasagar/vim-table-mode'
 	Plug 'tomtom/tcomment_vim'
 	Plug 'digitaltoad/vim-pug'
+	Plug 'DougBeney/vim-reddit'
 call plug#end()
 
 "Basic Configuration
@@ -17,9 +19,13 @@ set number
 syntax on
 
 "Setting My theme
-set background=dark
 set termguicolors
-colorscheme Monokai
+colorscheme dracula
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
 
 "Enable Indent Guides
 let g:indent_guides_enable_on_vim_startup = 1
