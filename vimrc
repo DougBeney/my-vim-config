@@ -43,3 +43,8 @@ map <C-g> :Goyo<cr>
 map <C-t> :tabnew<cr>
 map <C-r> :tabn<cr>
 map <C-e> :tabp<cr>
+
+"Copy/Paste
+noremap Y "+y
+noremap X "+x
+noremap P "+p
