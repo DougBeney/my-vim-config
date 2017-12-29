@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tomtom/tcomment_vim'
 	Plug 'digitaltoad/vim-pug'
 	Plug 'DougBeney/vim-reddit'
+	Plug 'vimwiki/vimwiki'
 call plug#end()
 
 "Basic Configuration
@@ -48,3 +49,6 @@ map <C-Left> :tabp<cr>
 noremap Y "+y
 noremap X "+x
 noremap P "+p
+
+let g:vimwiki_ext2syntax = {'.md': 'markdown'}
+
