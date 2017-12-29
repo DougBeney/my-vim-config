@@ -41,8 +41,8 @@ map <C-g> :Goyo<cr>
 
 "Tab Mappings
 map <C-t> :tabnew<cr>
-map <C-r> :tabn<cr>
-map <C-e> :tabp<cr>
+map <C-Right> :tabn<cr>
+map <C-Left> :tabp<cr>
 
 "Copy/Paste
 noremap Y "+y
