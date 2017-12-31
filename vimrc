@@ -13,6 +13,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'digitaltoad/vim-pug'
 	Plug 'DougBeney/vim-reddit'
 	Plug 'vimwiki/vimwiki'
+	Plug 'tpope/vim-surround'
 call plug#end()
 
 "Basic Configuration
@@ -39,6 +40,7 @@ map <C-d> :NERDTreeToggle<cr>
 
 "Goyo
 map <C-g> :Goyo<cr>
+let g:goyo_height = 100
 
 "Tab Mappings
 map <C-t> :tabnew<cr>
