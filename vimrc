@@ -14,6 +14,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'DougBeney/vim-reddit'
 	Plug 'tpope/vim-surround'
 	Plug 'dhruvasagar/vim-table-mode'
+	Plug 'python-mode/python-mode'
 call plug#end()
 
 "Basic Configuration
@@ -62,3 +63,7 @@ noremap X "+x
 noremap P "+p
 
 let g:vimwiki_ext2syntax = {'.md': 'markdown'}
+
+"Vim Python Mode
+set completeopt=menu
+set foldlevelstart=10
